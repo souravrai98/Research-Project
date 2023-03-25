@@ -1,11 +1,11 @@
 Model Name,File Size (MB),CPU Latency (ms/sample),Accuracy
-ResNet34.pth,81.32,8.59,90.52
-ResNet34_quantized.pth,20.54,9.7,90.51
-ResNet18.pth,42.7,5.46,90.41
-ResNet18_quantized.pth,10.79,6.31,90.39
-ResNet22.pth,51.72,6.52,90.35
-ResNet22_quantized.pth,13.07,7.49,90.31
-ResNet26.pth,53.99,7.58,90.58
-ResNet26_quantized.pth,13.66,8.43,90.62
-ResNet30.pth,72.3,7.43,91.12
-ResNet30_quantized.pth,18.26,9.22,90.94
+ResNet34.pth,81.32,34.87,90.52
+ResNet34_quantized.pth,20.54,15.34,90.51
+ResNet18.pth,42.7,16.84,90.41
+ResNet18_quantized.pth,10.79,7.41,90.39
+ResNet22.pth,51.72,21.37,90.35
+ResNet22_quantized.pth,13.07,8.08,90.31
+ResNet26.pth,53.99,21.01,90.58
+ResNet26_quantized.pth,13.66,9.28,90.62
+ResNet30.pth,72.3,28.44,91.12
+ResNet30_quantized.pth,18.26,13.67,90.94
