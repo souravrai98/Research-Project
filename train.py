@@ -244,12 +244,12 @@ integer_point_prec = validate(testloader, quant_model_final, criterion, cpu_dev)
 print("The original model accuracy is ", floating_point_prec)
 print("Quantized model accuracy is", integer_point_prec)
 
-#save_model_and_stats(model,config_architecture,round(measure_inference_latency(model, device = cpu_dev)*1000,2),floating_point_prec,is_quantized=False)
-print(round(measure_inference_latency(model, device = cpu_dev),2))
-print(round(measure_inference_latency(quant_model_final, device = cpu_dev),2))
+save_model_and_stats(model,config_architecture,round(measure_inference_latency(model, device = cpu_dev)*1000,2),floating_point_prec,is_quantized=False)
+#print(round(measure_inference_latency(model, device = cpu_dev),2))
+#print(round(measure_inference_latency(quant_model_final, device = cpu_dev),2))
 
-print(measure_latency(model,input_shape=(1, 3, 32, 32)))
-print(measure_latency(quant_model_final,input_shape=(1, 3, 32, 32)))
-#save_model_and_stats(quant_model_final,config_architecture,round(measure_inference_latency(quant_model_final, device = cpu_dev)*1000,2),integer_point_prec,is_quantized=True)
+#print(measure_latency(model,input_shape=(1, 3, 32, 32)))
+#print(measure_latency(quant_model_final,input_shape=(1, 3, 32, 32)))
+save_model_and_stats(quant_model_final,config_architecture,round(measure_inference_latency(quant_model_final, device = cpu_dev)*1000,2),integer_point_prec,is_quantized=True)
 
 

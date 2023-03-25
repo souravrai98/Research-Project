@@ -1,14 +1,14 @@
 {
     "experiment_number": 1,
     "dataset": "CIFAR", 
-    "architecture": "ResNet34", 
+    "architecture": "ResNet30", 
     "batch_size": 512, 
-    "epoch" : 2,
+    "epoch" : 150,
 
     "lr": 0.01, 
     "momentum": 0.9,
     "weight_decay": 5e-4,
-    "backend":"fbgemm",
+    "backend":"qnnpack",
     "random_seed": 0
     
     
