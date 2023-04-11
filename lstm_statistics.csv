@@ -1,4 +1,4 @@
-Model,MSE,CPU Latency (ms),File Size (MB)
+Model,MSE,CPU Latency (ms),File Size (KB)
 LSTM_60_15_FP,0.224,1.42,815.26
 LSTM_60_15_Quantized,0.223,1.60,215.23
 LSTM_48_12_FP,0.280,1.11,807.89
